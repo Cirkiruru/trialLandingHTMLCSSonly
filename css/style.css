@@ -1,0 +1,624 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Navbar container */
+.navbarBg {
+  background-color: black;
+}
+
+
+
+.title {
+  text-align: center;
+  color: white;
+  margin: -15px;
+  padding-top: 26px;
+  cursor: pointer;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius: 10px;
+}
+
+#searchIcon a:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius: 10px;
+  width: 20%;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  #searchIcon {
+   display: none;
+  }
+  .topnav a.active {
+   display: none;
+}
+   
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+#searchIcon {
+  color: white;
+  cursor: pointer;
+  padding-left: 25px;
+  padding-top: 3px;
+}
+
+
+/* navbar container end  */
+
+
+
+/* HOME PAGES */
+.backgroundHome {
+  background-color: #06a068;
+  height: 91vh;
+}
+
+.startup {
+  text-align: center;
+  padding-top: 55px;
+}
+
+.frontImage {
+  position: absolute;
+  height: 90%;
+  width: 20%;
+  bottom: -3px;
+  right: 20%;
+}
+
+
+.btn {
+  color: white;
+  background: transparent;
+}
+
+.btnstyle {
+  background: transparent;
+  color: white;
+  border: solid 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnstyle:hover {
+  background-color: #06a068;
+}
+
+.btnstyle:active {
+  background-color: #06a068;
+  box-shadow: 0 4px gray;
+  transform: translateY(4px);
+}
+
+hr {
+  width: 250px;
+}
+
+@media only screen and (max-width: 1209px) {
+  .frontImage {
+    display: none;
+  }
+}
+
+
+/* end of second container  */
+
+
+
+/* starting of ABOUT container */
+
+
+.backgroundAbout {
+  padding: 80px;
+}
+
+.secondImage {
+  height: 100%;
+  width: 100%;
+}
+
+.textabout {
+  text-align: center;
+}
+
+
+
+.aboutMe {
+  margin: 50px;
+  padding-left: 50px;
+}
+
+.downloadcvbutton {
+  margin-left: 37px;
+
+}
+
+.btnstyle2 {
+  cursor: pointer;
+  border-top: turquoise;
+  border: double;
+  border-radius: 0px;
+  border-left: transparent;
+  border-right: transparent;
+  background: transparent;
+  margin-left: 20px;
+
+}
+
+.btnstyle2:hover {
+  background-color: #06a068
+}
+
+.btnstyle2:active {
+  background-color: #06a068;
+  box-shadow: 0 4px gray;
+  transform: translateY(4px);
+}
+
+.classicons {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 60px;
+
+}
+
+.fonticon {
+  font-size: 30px;
+}
+
+.counts {
+  text-align: center;
+  padding-top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .secondImage {
+    display: none;
+  }
+}
+
+/* ABOUT ENDING */
+
+
+/* SERVICES START */
+
+.services {
+  background-color: #F4F4F4;
+  padding-top: 100px;
+  height: 100vh;
+}
+
+.myservices {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.htmlcss {
+  position: relative;
+  border: 2px solid #cacbd0;
+  border-radius: 8px;
+
+}
+
+.border {
+  left: 11px;
+  bottom: 128px;
+  font-size: 30px;
+  border-bottom: 1px solid #cacbd0;
+}
+
+#textposition {
+  font-size: 20px;
+}
+
+#iconposition {
+  font-size: 30px;
+  border-right: 2px solid #cacbd0;
+  width: 15%;
+  color: #00B48E;
+  margin: 14px;
+}
+
+#textbodyService {
+  margin: 20px
+}
+#hrServices{
+  margin-top: 0rem;
+    margin-bottom: -1.5rem;
+    border-width: 0;
+    border-top: 3px solid #E1E1E1;
+    width: 290px;
+}
+
+/* end of SERVICES */
+
+/* start of MY RECENT WORKS */
+.recentworks {
+  background-color: #FFFFFF;
+}
+
+.recentworkstitle {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.choicesWorks {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#gallery {
+  margin: 10px;
+  float: left;
+  width: 100%;
+}
+
+#btnRecent {
+  border-left: none;
+  border-right: none;
+}
+
+
+#btnRecent:hover {
+  border-color: #00B48E;
+}
+
+#btnRecent a.active {
+  border-left: none;
+  border-right: none;
+  border: #00B48E;
+}
+
+
+.gallarySize {
+  text-align: center;
+}
+
+#gallery img {
+  width: 85%;
+  height: 40vh;
+}
+
+/* end of MY RECENT WORKS */
+
+
+/* start of MY EXPERTNESS */
+
+
+.myExpertness {
+  background-color: #efefef;
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.customEXPERTNESS {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.skillcontainer {
+  width: 100%;
+  background-color: rgb(213, 211, 211);
+}
+
+.skillsClass {
+  position: relative;
+}
+
+.pesonalSkills {
+  text-align: center;
+}
+
+.htmlcss2 {
+  position: relative;
+  width: 90%;
+  background-color: #55CBB4;
+  text-align: right;
+  height: 5px;
+  margin-bottom: 15px;
+}
+
+.wordpress2 {
+  position: relative;
+  width: 90%;
+  background-color: #55CBB4;
+  text-align: right;
+  height: 5px;
+  margin-bottom: 15px;
+}
+
+.bootStrap2 {
+  position: relative;
+  width: 90%;
+  background-color: #55CBB4;
+  text-align: right;
+  height: 5px;
+  margin-bottom: 15px;
+}
+
+.photoshop2 {
+  position: relative;
+  width: 90%;
+  background-color: #55CBB4;
+  text-align: right;
+  height: 5px;
+  margin-bottom: 15px;
+}
+
+.communicationSkills2 {
+  position: relative;
+  width: 90%;
+  background-color: #55CBB4;
+  text-align: right;
+  height: 5px;
+  margin-bottom: 15px;
+}
+
+.maintenance2 {
+  position: relative;
+  width: 90%;
+  background-color: #55CBB4;
+  text-align: right;
+  height: 5px;
+  margin-bottom: 15px;
+}
+
+.customerService2 {
+  position: relative;
+  width: 90%;
+  background-color: #55CBB4;
+  text-align: right;
+  height: 5px;
+  margin-bottom: 15px;
+}
+
+.support2 {
+  position: relative;
+  width: 90%;
+  background-color: #55CBB4;
+  text-align: right;
+  height: 5px;
+  margin-bottom: 15px;
+}
+
+#percentChange {
+  position: absolute;
+  bottom: 5px;
+  right: 0px;
+  font-size: 10px;
+}
+
+
+/* end of MY EXPERTNESS */
+
+
+/* start of testimonials */
+
+.testimonialscontainer{
+  height: 100vh;
+}
+
+
+.testimonialsTittle{
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.testimonialstlye {
+  text-align: center;
+}
+.testimonials {
+  background-color: #eee;
+  padding: 20px;
+  margin: -10px; 
+  margin-bottom: 35px;
+}
+
+.testimonials::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.testimonials img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.testimonials span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.diamond-shape {
+  background: transparent;
+  height: 40px;
+  text-align: center;
+  transform:rotate(45deg);
+	width:40px;
+  border: 2px dotted;
+  cursor: pointer;
+}
+.item-count {
+  color: #333;
+  display: table-cell;
+  height: 40px;
+  transform: rotate(-45deg);
+  vertical-align: middle;
+	width:40px;
+}
+.diamondsbtn {
+  text-align: center; 
+  margin: 25px;
+}
+.position{
+  display: inline-flex;
+
+}
+.diamondposition{
+  padding-bottom: 50px;
+
+}
+
+/* end of testinials */
+
+/* 
+start of getqoute */
+
+.getqouteContainer {
+  height: 65vh;
+  background-color: white;
+  padding-top: 230px;
+}
+.getqoute{
+  position: relative;
+  width: 45%;
+  left: 13px;
+}
+
+/* end of getqoute */
+
+/* 
+start of blog */
+
+#blogGallary img {
+  width: 100%;
+  height: 60vh;
+}
+
+
+#blogGallary span{
+  padding-left: 55px;
+}
+
+#blogGallary i{
+  padding-right: 5px;
+}
+
+/* 
+end of blog */
+
+
+  /* start of logosponsor */
+
+.sponsorlogo {
+  height: 100vh;
+}
+
+.imglogoSponsor  {
+  display: flex; 
+  top: 230px;
+}
+
+.imglogoSponsor img {
+  background: rgb(208, 208, 208);
+  height: 16vh;
+  width: 64%;
+  padding: 16px;
+  margin: 4px;
+}
+.slick-prev{
+  margin: 80px  14px 31px 0px;
+  padding: 0px 4px 0px 4px;
+
+}
+
+
+.slick-next{
+  margin: 80px  14px 31px 0px;
+  padding: 0px 4px 0px 4px;
+
+}
+
+
+/* end of logosponsor */
+
+
+/* start of contact */
+.contactPosition{
+  text-align: center;
+
+}
+
+#contactIcon {
+  font-size: 35px;
+  color: #55CBB4;
+  padding-bottom: 15px;
+}
+
+
+.contactChoices {
+  font-weight: bold;
+}
+
+
